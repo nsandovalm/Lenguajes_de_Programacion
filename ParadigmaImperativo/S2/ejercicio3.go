@@ -38,7 +38,7 @@ func main() {
 	arrOriginal := [8]int{1, 2, 3, 4, 5, 6, 7, 8}
 	cantRotaciones := 3
 	direccion := "izq"
-	fmt.Println("------------------------------ Ejercicio 2 -------------------------------")
+	fmt.Println("------------------------------ Ejercicio 3 -------------------------------")
 	fmt.Println("Arreglo Original: ", arrOriginal)
 	fmt.Println("Cantidad de rotaciones: ", cantRotaciones)
 	fmt.Println("Direccion: ", direccion)
@@ -63,3 +63,27 @@ func main() {
 	fmt.Println("Arreglo Rotado: ", arrRotado)
 
 }
+
+/*
+	Resultados obtenidos:
+
+GOROOT=C:\Program Files\Go #gosetup
+GOPATH=C:\Users\0\go #gosetup
+"C:\Program Files\Go\bin\go.exe" build -o C:\Users\0\AppData\Local\Temp\GoLand\___go_build_ejercicio3_go.exe "C:\Users\0\Desktop\TEC\II Semestre 2022\Lenguajes\S2\practicaRepositorio\paradigmaImperativo\S2\Ejercicio3\ejercicio3.go" #gosetup
+C:\Users\0\AppData\Local\Temp\GoLand\___go_build_ejercicio3_go.exe
+------------------------------ Ejercicio 3 -------------------------------
+Arreglo Original:  [1 2 3 4 5 6 7 8]
+Cantidad de rotaciones:  3
+Direccion:  izq
+Arreglo Rotado:  [4 5 6 7 8 1 2 3]
+*************************************************************************
+Cambiando la variable direccion--------------------------
+Arreglo Original:  [1 2 3 4 5 6 7 8]
+Cantidad de rotaciones:  3
+Direccion:  der
+Arreglo Rotado:  [6 7 8 1 2 3 4 5]
+
+Process finished with the exit code 0
+
+
+*/
